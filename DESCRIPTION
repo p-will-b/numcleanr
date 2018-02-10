@@ -1,12 +1,15 @@
-Package: numcleanr
 Type: Package
-Title: What the Package Does (Title Case)
+Package: numcleanr
+Title: Readable Numbers in R
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author@R: c(
+    person("Peter", "Beer", , "peter.w.beer@gmail.com", c("aut","cre"))
+)
+Description: Numcleanr provides tools for taming the many and varied number
+    formats one encounters in the world of data analysis.
+License: MIT + file LICENSE
+URL: https://github.com/p-will-b/numcleanr
+BugReports: http://github.com/p-will-b/numcleanr/issues
 Encoding: UTF-8
 LazyData: true
 Imports:
