@@ -4,7 +4,7 @@ Title: Readable Numbers in R
 Version: 0.1.0
 Author@R: c(
     person("Peter", "Beer", , "peter.w.beer@gmail.com", c("aut","cre"))
-)
+    )
 Description: Numcleanr provides tools for taming the many and varied number
     formats one encounters in the world of data analysis.
 License: MIT + file LICENSE
