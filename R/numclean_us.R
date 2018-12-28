@@ -6,5 +6,7 @@ numclean_us <- function(x){
     stringr::str_replace(., "n/a", NA_character_) %>%
     stringr::str_replace(., "#N/A", NA_character_) %>%
     stringr::str_replace_all(., ",", "") %>%
+    stringr::str_replace_all(., "\\)", "") %>%
+    stringr::str_replace_all(., "\\(", "-") %>%
     as.numeric()
 }
